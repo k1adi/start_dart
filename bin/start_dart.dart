@@ -1,10 +1,11 @@
 import 'package:start_dart/start_dart.dart' as start_dart;
 
 // const bersifat tidak dapat diperbarui ketika sudah di compile
+// nilai pada variable const harus sudah ditentukan sebelum program di jalankan
 const num pi = 3.14;
 
 // final bersifat dapat diperbarui ketika setiap kali runtime
-// Tetapi tidak bisa diinisialisasi ulang ketika sudah di runtime
+// Tetapi tidak bisa diinisialisasi ulang ketika sudah di jalankan
 final DateTime now = DateTime.now();
 
 /// Fungsi [main] akan menampilkan 2 output
